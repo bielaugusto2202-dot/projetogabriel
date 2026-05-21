@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio Gabriel Augusto</title>
+
+   <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="container">
+
+        <nav class="navbar">
+
+            <h1 class="logo">
+                Gabriel Augusto
+            </h1>
+
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button id="theme-toggle" class="btn-theme">
+                Alterar Tema
+            </button>
+
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero-section">
+
+            <div class="hero-content">
+
+                <article class="hero-text">
+
+                    <h2>Desenvolvedor de Sistemas</h2>
+
+                    <p>
+                        Sou aluno do curso de Desenvolvimento de Sistemas.
+                        Estou focado em aprender e dominar o desenvolvimento
+                        backend,sistemas modernos e soluções escaláveis.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#contato" class="btn btn-primary">
+                            Entrar em contato
+                        </a>
+
+                        <a href="https://github.com"
+                            target="_blank"
+                            class="btn btn-secondary">
+
+                            <i class="fab fa-github"></i>
+                            GitHub
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <aside class="hero-profile">
+
+                    <figure class="profile-box">
+
+                        <img
+                            src=""
+                            alt="Foto de Gabriel Augusto"
+                            class="profile-img">
+
+                    </figure>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section-area">
+
+            <header>
+                <h2>Sobre Mim</h2>
+            </header>
+
+            <article class="card large-card">
+
+                <p>
+                    Como estudante de Desenvolvimento de Sistemas,
+                    busco constantemente evoluir em arquitetura de software,
+                    lógica de programação e boas práticas de desenvolvimento backend.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section-area">
+
+            <header>
+                <h2>Habilidades</h2>
+            </header>
+
+            <ul class="tech-badges">
+
+                <li>
+                    <span class="badge">HTML</span>
+                </li>
+
+                <li>
+                    <span class="badge">CSS</span>
+                </li>
+
+                <li>
+                    <span class="badge">JavaScript</span>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <!-- PROJETOS -->
+<section id="projetos" class="section-area">
+
+    <header>
+        <h2>Projetos</h2>
+    </header>
+
+    <div class="projects-container">
+
+        <!-- PROJETO 1 -->
+        <article class="card project-card">
+
+            <figure>
+                <img
+                    src="img/projeto1.png"
+                    alt="Criação de Sites"
+                    class="project-img">
+            </figure>
+
+            <h3>Criação de Sites Profissionais</h3>
+
+            <p>
+                Desenvolvimento de sites modernos e responsivos
+                para empresas e profissionais.
+            </p>
+
+        </article>
+
+        <!-- PROJETO 2 -->
+        <article class="card project-card">
+
+            <figure>
+                <img
+                    src="img/projeto2.png"
+                    alt="Sites Responsivos"
+                    class="project-img">
+            </figure>
+
+            <h3>Sites Responsivos</h3>
+
+            <p>
+                Criação de páginas adaptáveis para celulares,
+                tablets e computadores.
+            </p>
+
+        </article>
+
+        <!-- PROJETO 3 -->
+        <article class="card project-card">
+
+            <figure>
+                <img
+                    src="img/projeto3.png"
+                    alt="Desenvolvimento Backend"
+                    class="project-img">
+            </figure>
+
+            <h3>Desenvolvimento Backend</h3>
+
+            <p>
+                Desenvolvimento de APIs, sistemas
+                e aplicações web modernas.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section-area">
+
+            <header>
+                <h2>Contato</h2>
+            </header>
+
+            <div class="contact-container">
+
+                <!-- FORMULÁRIO -->
+                <article class="card form-card">
+
+                    <form>
+
+                        <fieldset>
+
+                            <legend>Envie uma mensagem</legend>
+
+                            <div class="form-group">
+
+                                <label for="nome">Nome</label>
+
+                                <input
+                                    type="text"
+                                    id="nome"
+                                    placeholder="Seu nome completo"
+                                    required>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="email">Email</label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="seu-email@exemplo.com"
+                                    required>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="mensagem">Mensagem</label>
+
+                                <textarea
+                                    id="mensagem"
+                                    rows="5"
+                                    placeholder="Como posso te ajudar?"
+                                    required>
+                                </textarea>
+
+                            </div>
+
+                            <button type="submit"
+                                class="btn btn-primary btn-submit">
+
+                                Enviar
+
+                            </button>
+
+                        </fieldset>
+
+                    </form>
+
+                </article>
+
+                <!-- LINKS -->
+                <aside class="card contact-links-card">
+
+                    <h3>Canais Diretos</h3>
+
+                    <p>
+                        Entre em contato pelas minhas redes:
+                    </p>
+
+                    <ul class="contact-list">
+
+                        <li>
+
+                            <a href="mailto:seu-email@email.com"
+                                class="contact-btn">
+
+                                <i class="fas fa-envelope"></i>
+                                E-mail
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="https://linkedin.com"
+                                target="_blank"
+                                class="contact-btn">
+
+                                <i class="fab fa-linkedin"></i>
+                                LinkedIn
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="https://wa.me/5531983169507"
+                                target="_blank"
+                                class="contact-btn">
+
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            &copy; 2026 • Gabriel Augusto • Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
